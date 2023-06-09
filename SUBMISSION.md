@@ -63,3 +63,5 @@ INSTALLED_APPS = [
     'drf_yasg',
 ]
 ```
+
+* create a new file called 'urls.py' in users folder
