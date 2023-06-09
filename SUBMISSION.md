@@ -16,3 +16,8 @@ To run the API server, you can use the following command:
 uvicorn app:app --reload
 ```
 
+# Setting up the Project
+* Creating a virtual environment 
+```
+python -m venv venv
+```
