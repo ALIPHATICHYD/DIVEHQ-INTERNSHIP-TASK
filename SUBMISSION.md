@@ -26,3 +26,8 @@ python -m venv venv
 ```
 source venv/bin/activate
 ```
+
+* Installing Django Framework
+```
+pip install django djangorestframework djoser drf-yasg
+```
