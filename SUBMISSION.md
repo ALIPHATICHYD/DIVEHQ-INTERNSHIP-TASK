@@ -44,3 +44,22 @@ cd dive
 ```
 python manage.py startapp users
 ```
+
+
+* Adding Installed apps to settings.py
+
+```
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    <!-- add these apps below 👇🏾 -->
+    'users',
+    'rest_framework', 
+    'djoser',
+    'drf_yasg',
+]
+```
