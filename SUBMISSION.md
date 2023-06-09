@@ -67,6 +67,11 @@ INSTALLED_APPS = [
 * create a new file called 'urls.py' in users folder
 
 
+* Running it on the server
+```
+python manage.py runserver
+```
+
 
 Django-admin startproject is to create a project that uses Django features, then we needed to create apps with Django and we use the command python manage,py startapp users
 but before this, we need to cd into the django admin project we created. Then, in the setting file of the Django project, we need to tell Django that there are apps that we have been installed, and we need to use 
