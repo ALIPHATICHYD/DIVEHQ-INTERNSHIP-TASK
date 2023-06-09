@@ -21,3 +21,8 @@ uvicorn app:app --reload
 ```
 python -m venv venv
 ```
+
+* Activating the Virtual Environment
+```
+source venv/bin/activate
+```
