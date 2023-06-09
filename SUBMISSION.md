@@ -36,3 +36,11 @@ pip install django djangorestframework djoser drf-yasg
 ```
 django-admin startproject dive
 ```
+
+```
+cd dive
+```
+
+```
+python manage.py startapp users
+```
