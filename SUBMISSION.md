@@ -31,3 +31,8 @@ source venv/bin/activate
 ```
 pip install django djangorestframework djoser drf-yasg
 ```
+
+* Installing a Django Project 
+```
+django-admin startproject dive
+```
