@@ -76,3 +76,25 @@ python manage.py runserver
 Django-admin startproject is to create a project that uses Django features, then we needed to create apps with Django and we use the command python manage,py startapp users
 but before this, we need to cd into the django admin project we created. Then, in the setting file of the Django project, we need to tell Django that there are apps that we have been installed, and we need to use 
 so we register users, rest_framework, djoser, drf_yasg
+
+
+
+# Setting up the Database using SQLite Manager
+* Installing SQLite Manager
+```
+pip install pysqlite3
+```
+
+* Creating a new file called 'models.py' in users folder
+
+* Creating a new file called 'admin.py' in users folder
+
+* Creating a new file called 'serializers.py' in users folder
+
+* Creating a new file called 'views.py' in users folder
+
+* Creating a new file called 'urls.py' in users folder
+
+* Creating a new file called 'tests.py' in users folder
+
+* Creating a new file called 'urls.py' in dive folder
