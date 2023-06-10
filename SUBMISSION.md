@@ -98,3 +98,5 @@ pip install pysqlite3
 * Creating a new file called 'tests.py' in users folder
 
 * Creating a new file called 'urls.py' in dive folder
+
+* Creating a new file called 'urls.py' in dive folder
