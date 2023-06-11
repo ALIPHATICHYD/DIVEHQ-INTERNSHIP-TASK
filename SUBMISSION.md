@@ -100,3 +100,14 @@ pip install pysqlite3
 * Creating a new file called 'urls.py' in dive folder
 
 * Creating a new file called 'urls.py' in dive folder
+
+
+
+# Setting up the Database using SQLite Manager
+* Installing SQLite Manager
+```
+pip install pysqlite3
+```
+
+After running the server for a Django project, the next step for the SQLite manager would typically involve performing database operations using Django's ORM (Object-Relational Mapping) or directly interacting with the SQLite database. However, we will be using the Django REST Framework to create a RESTful API for our project.
+
