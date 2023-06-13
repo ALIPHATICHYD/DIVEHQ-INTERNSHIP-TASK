@@ -25,19 +25,21 @@ class UserAccountManager(BaseUserManager):
             password=password
         )
         user.is_staff = True
-        user.is_admin=True
-        user.is_superuser = False
+        user.is_admin = True
+        user.is_superuser = True
+        user.save()
+        return user
 
 
 
 class UserAccount(AbstractUser, PermissionsMixin):
-
     fullname = models.CharField(max_length=255)
     email = models.EmailField(max_length=255, unique=True)
     is_active = models.BooleanField(default=True)
     is_admin = models.BooleanField(default=False)
     is_superuser = models.BooleanField(default=False)
     role = models.CharField(choices=Role.choices, max_length=50)
+    is_staff = models.BooleanField(default=False)
     manager = models.ForeignKey('self', on_delete=models.CASCADE, related_name='users', null=True)
 
     objects = UserAccountManager()
