@@ -38,7 +38,7 @@ class UserAccount(AbstractUser, PermissionsMixin):
     is_admin = models.BooleanField(default=False)
     is_superuser = models.BooleanField(default=False)
     role = models.CharField(choices=Role.choices, max_length=50)
-    manager = models.ForeignKey('self', related_name='users')
+    manager = models.ForeignKey('self', on_delete=models.CASCADE, related_name='users', null=True)
 
     objects = UserAccountManager()
 
